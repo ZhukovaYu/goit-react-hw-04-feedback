@@ -1,0 +1,11 @@
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.title {
+    color: rgb(53, 49, 74);
+    text-align: center;
+    margin: 10px 0;
+}

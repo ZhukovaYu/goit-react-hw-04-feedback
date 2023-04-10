@@ -1,0 +1,31 @@
+.controls {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.feedbackButton {
+    width: 152px;
+    border-radius: 4px;
+    border: 1px solid rgb(143, 143, 167);
+    padding: 6px 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(26, 24, 26);
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+    font-family: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedbackButton:hover,
+.feedbackButton:focus {
+    box-shadow: 5px 5px 5px rgba(155, 170, 185, 0.1),
+        5px 5px 5px rgba(155, 170, 185, 0.1), 5px 5px 5px rgba(155, 170, 185, 0.1);
+    color: rgb(238, 242, 245);
+    background-color: rgb(100, 127, 134);
+}
